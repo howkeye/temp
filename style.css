@@ -283,11 +283,11 @@ button:hover {
     background: #14226b;
   }
   .wrapper i:first-child{
-    left: -0.25px;
+    left: 17px;
     display: none;
   }
   .wrapper i:last-child{
-    right: -0.25px;
+    right: 17px;
   }
   .wrapper .carousel{
     font-size: 0px;
