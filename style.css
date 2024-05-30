@@ -253,6 +253,8 @@ button:hover {
     justify-content: left;
     padding-left: 80px;
     padding-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   
    
   }
@@ -568,11 +570,12 @@ button:hover {
   .ft-main {
     padding: 1.25rem 1.875rem;
     display: flex;
+    justify-items: center;
     flex-wrap: wrap;
   }
   @media only screen and (min-width: 29.8125rem /* 477px */) {
     .ft-main {
-      justify-content: space-evenly;
+      justify-content: space-between;
     }
   }
   @media only screen and (min-width: 77.5rem /* 1240px */) {
@@ -620,7 +623,7 @@ button:hover {
   }
   /* Footer legal */
   .ft-legal {
-    padding: 0.9375rem 1.875rem;
+    padding: 1.25rem 1.875rem;
     background-color: #fff;
   }
   .ft-legal-list {
@@ -688,7 +691,7 @@ button.quickcard{
 
 }
 .ft-main{
-  justify-content:center;
+  justify-content:space-between;
 }
 .ft-legal{
   width: 50%;
